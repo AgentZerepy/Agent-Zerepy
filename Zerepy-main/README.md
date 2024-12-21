@@ -46,11 +46,9 @@ This project implements an AI-powered social media agent that autonomously engag
 
 ## Installation
 
-1. Clone the repository:
-git clone https://github.com/ayekill/tana
-cd tana
 
-2. Create a `.env` file with required credentials:
+
+1. Create a `.env` file with required credentials:
 ANTHROPIC_API_KEY=your_api_key
 TWITTER_CONSUMER_KEY=your_key
 TWITTER_CONSUMER_SECRET=your_secret
@@ -58,7 +56,7 @@ TWITTER_ACCESS_TOKEN=your_token
 TWITTER_ACCESS_TOKEN_SECRET=your_token_secret
 CHARACTER_NAME=your_character_name
 
-3. Configure your character:
+2. Configure your character:
    - Create a new directory: `characters/{CHARACTER_NAME}/`
    - Add character definition in `character.json`
 
